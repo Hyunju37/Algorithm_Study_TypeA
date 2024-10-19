@@ -20,10 +20,9 @@ def main():
         if room[r][c] == 0:
             room[r][c] = 2
         if 0 in neighbors(r, c, N, M):
-
-
+            pass
 
 
 if __name__ == "__main__":
     main()
-    
+        
